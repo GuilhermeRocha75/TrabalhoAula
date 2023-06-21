@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(#006400, #7FFF00);
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    background: linear-gradient(#98FB98, #8FBC8F);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 750px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    color: aquamarine;
+    text-decoration-line: underline;
+}
+
+h4 {
+    color: #00FFFF;
+    text-decoration-line: underline;
+}
+
+header {
+    background: linear-gradient(#8FBC8F, #98FB98);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+
+
+}
+
+nav {
+    background-color: #395e5e;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+
+section {
+    background-color: #395e5e;
+    color: #00FF7F;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+  
+}
+
+article {
+    background-color: #2F4F4F;
+    color: #00FF7F;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+  
+
+}
+
+footer {
+    background-color: #7FFFD4;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+   
+}
