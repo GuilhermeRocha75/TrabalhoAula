@@ -1,80 +1,58 @@
+img{
+    max-width: 200px;
+}
 body {
-    background: linear-gradient(#006400, #7FFF00);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(255,255,255);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,182,182,1) 100%);
     margin: 0;
     padding: 20px;
 }
 
-main {
-    background: linear-gradient(#98FB98, #8FBC8F);
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    border-radius: 10px;
-    min-width: 200px;
-    max-width: 750px;
-}
-
-img {
-    max-width: 100%;
-}
-
-h2 {
-    color: aquamarine;
-    text-decoration-line: underline;
-}
-
-h4 {
-    color: #00FFFF;
-    text-decoration-line: underline;
-}
-
 header {
-    background: linear-gradient(#8FBC8F, #98FB98);
-    color: rgb(0, 0, 0);
+    background-color: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    margin: auto;
-    border-radius: 10px;
-
-
+    font-size: 60px;
+  
+ 
 }
 
 nav {
-    background-color: #395e5e;
-    padding: 20px;
+    background-color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: left
+    
+}
+.container {
+    width: 90%;
+    margin: 3% auto;
+    padding: 1px;
+    background-color:rgb(160, 160, 160);}
+
+.destaque{
     text-align: center;
-    margin: auto;
-    border-radius: 10px;
-   
+    text-decoration: underline;
+}
+.valores{
+    font-size: 30px;
+    text-decoration: underline;
+    color: green;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold
 }
 
-section {
-    background-color: #395e5e;
-    color: #00FF7F;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    border-radius: 10px;
-  
-}
-
-article {
-    background-color: #2F4F4F;
-    color: #00FF7F;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    border-radius: 10px;
-  
-
-}
 
 footer {
-    background-color: #7FFFD4;
+    background-color: rgb(87, 87, 87);
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 2px;
     text-align: center;
-    margin: auto;
-    border-radius: 10px;
-   
 }
